@@ -1,1 +1,1 @@
-# shellscripts
+# shellscripts directory
