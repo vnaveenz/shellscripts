@@ -25,4 +25,4 @@ sudo apt-get update
 
 sudo apt-get install -y docker-ce=5:18.09.5~3-0~ubuntu-bionic docker-ce-cli=5:18.09.5~3-0~ubuntu-bionic containerd.io
 
-sudo usermod -a -G docker cloud_user
+sudo usermod -a -G docker $(whoami)
