@@ -14,8 +14,6 @@ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 
 sudo apt-key fingerprint 0EBFCD88
 
-sudo apt-key fingerprint 0EBFCD88
-
 sudo add-apt-repository \
    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
    $(lsb_release -cs) \
@@ -23,6 +21,6 @@ sudo add-apt-repository \
 
 sudo apt-get update
 
-sudo apt-get install -y docker-ce=5:18.09.5~3-0~ubuntu-bionic docker-ce-cli=5:18.09.5~3-0~ubuntu-bionic containerd.io
+sudo apt-get install -y docker-ce docker-ce-cli containerd.io
 
 sudo usermod -a -G docker $(whoami)
