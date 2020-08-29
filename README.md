@@ -1,5 +1,5 @@
 
 # shellscripts 
 
-# Shellscripts uses $ sign for variable evaluation
+* Shellscripts uses $ sign for variable evaluation
 
